@@ -1,7 +1,36 @@
 Reading Notes Here:
-
-* 
-
-OR
-
-1) 
+Chapter 1.1
+	1. Basic Computing Concepts
+		a. Computers now infiltrate the daily routine of our lives
+		b. Computers can be anything from a laptop to an iPod to a Roomba 
+		c. Humans can also be computers with a simple pen and paper
+	2. Why Programming?
+		a. Programming is essential to learn computer science but computer science is more than just programming
+		b. Don Knuth says the basis of computer science is algorithms
+	3. Algorithm 
+		a. Step-by-step description on how to complete a task
+		b. Thought process of algorithms is the key 
+		c. Called algorithmic thinking
+		d. It is the best way to explain the approach to solving problems
+		e. Algorithms can be computer programs 
+	4. Hardware and Software
+		a. Program
+			A. a list of istructions 
+			B. A computer can be differentiated because of its versatility 
+			C. Physical components of a computer is called Hardware
+				1. GPU, CPU, Hard Disk
+			D. Computer Programs are called Software
+			E.Operating system provides the environment to run programs
+	5. The Digital Realm
+		a. Modern computers are referred as digital computers 
+		b. Digital 
+			A. Numbers that increase in discrete increments
+			B. Every program is stored as a sequence of integers. 
+		c. Binary Numbers
+			A. Numbers of just 0 and 1
+			B. Also known as base-2
+			C. Building computers is easier using base-2
+			D. One counts up by adding 0s and 1s 
+			E. memory storage came in bytes
+				1. kilo<mega<giga<tera<peta
+		6. The Process of Programming
