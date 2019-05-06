@@ -30,4 +30,13 @@ D. 78
 
 //Problem 5 
 
-Java program files use the extension .java while the .class extension is made when the program is compiled
+A file with the .java extension stores source code. 
+When a file with the extension .java is compiled it creates Java bytecode which is stored in a file with the same name excepte with a 
+.class extension
+
+//Problem 6 
+println AnnualSalary ABC sum_of_data B4
+
+//Problem 7
+
+d. System.out.println
