@@ -1,7 +1,33 @@
-//code goes here for each problem
-
 //Problem 1
-
+The reason why computers use binary numbers is that it was easier to build computers that could be based on 2 numbers than 10. 
 //code
 
 //Problem 2
+
+A. 110
+B. 101100
+C. 1001000
+D. 10000011
+
+//Problem 3
+
+A. 4
+B. 11
+C. 42
+D. 78
+
+//Problem 4
+1.Get a count of your friends. 
+2. Get ingredients and supplies ready
+3. Preheat oven to desired temp.
+4. Prepare pan to place batter
+5. Place batter on pan
+6. put pan in oven
+7. wait for certain amount of time for baking
+8. take pan out of oven. 
+9. feed cookies to friends 
+10. repeat 4-9 till hunger is abated
+
+//Problem 5 
+
+Java program files use the extension .java while the .class extension is made when the program is compiled
