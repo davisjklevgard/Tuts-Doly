@@ -1,3 +1,4 @@
+* means that there is a problem or question I wish to ask 
 //Problem 1
 The reason why computers use binary numbers is that it was easier to build computers that could be based on 2 numbers than 10. 
 //code
@@ -99,10 +100,30 @@ System.out.println("''quotes.''");
 
 System.out.println("/ \\ // \\\\ /// \\\\\\");
 
-//Problem 16
+//Problem 16*
 
 System.out.println("Twas brillig and the");
 System.out.println(" ");
 System.out.println(" slithy toves did gyre and");
-System.out.println("gimble
+System.out.println("gimble");
+System.out.println();
+System.out.println(" in the wabe.");
+
+//Problem 17*
+
+some lines of code
+have
+which means 
+
+//Problem 18
+
+no class in line one
+no ; at the end of line 3
+capital P in println in line 4
+
+//Problem 19
+
+no void in line 2
+the s in string need to be S in line 2
+
 
