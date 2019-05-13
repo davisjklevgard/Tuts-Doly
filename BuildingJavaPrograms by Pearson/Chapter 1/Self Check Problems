@@ -125,5 +125,115 @@ capital P in println in line 4
 
 no void in line 2
 the s in string need to be S in line 2
+no finishing " after enter in line 4
+no closing } in line 5
 
+//Problem 20 *feel that something got cut off
 
+no args in line 2 
+line 3 should end with o");
+line 4 does not end );
+line 7 should end with ion");
+line 10 needs a / to close the comment after the *
+
+//Problem 21
+
+a. public static void example() {
+
+//Problem 22
+
+This is message1.
+This is message2.
+This is message1.
+Done with message2.
+Done with main.
+
+//Problem 23
+
+Inside first method
+Inside third method
+Inside first method
+Inside second method
+Inside first method
+Inside second method
+Inside first method
+Inside third method
+Inside first method
+Inside second method
+Inside first method
+
+//Problem 24
+
+Inside first method 
+Inside first method 
+Inside second method
+Inside first method
+Inside third method
+Inside second method
+Inside first method
+Inside first method 
+Inside second method
+Inside first method
+Inside third method
+
+//Problem 25
+
+Inside first method
+Inside second method
+Inside first method
+Inside first method
+Inside second method
+Inside third method
+Inside first method
+Inside second method
+Inside first method
+
+//Problem 26
+
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 3.
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 1.
+I am method 2.
+I am method 3.
+I am method 1.
+
+//Problem 27
+
+I am method 1.
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 3.
+I am method 1.
+I am method 2.
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 3.
+
+//Problem 28
+
+I am method 1.
+I am method 2.
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 3.
+I am method 1.
+I am method 1.
+I am method 2.
+
+//Problem 29 *not sure if 
+
+no [] in line 2
+no "" in line 3
+no ; in line 4 
+no () in line 7 after message
+no closing ) in line 
+no \ in front of the " that surrond errors in line 9 
+no closing }
