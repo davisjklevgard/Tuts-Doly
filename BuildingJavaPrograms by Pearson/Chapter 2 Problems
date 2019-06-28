@@ -19,13 +19,87 @@ j.1
 k.7
 l.5
 m.2
-n.
-o.
-p.
-q.
-r.
-s.
-t.
+n.18
+o.3
+p.4
+q.4
+r.15
+s.8
+t.1
+
+//Problem 4 
+
+a.9.0
+b.9.9
+c.2.2
+d.6.0
+e.6.0
+f.8.0
+g.1.25
+h.3.0
+i.3.0
+j.3.0
+k.5.0
+l.6.4
+m.37.0
+n.8.5
+o.4.0
+p.4.0
+
+
+//Problem 5
+
+a. 11
+b. "2 +2 34"
+c. "2 2 + 3 4"
+d. "7 2 +2"
+e. "2 + 2 7"
+f. "(2 +2) 7"
+g. "hello 34 8"
+h. "2(int) 2.042"
+i. "14.73"
+j. "007"
+k. "28 - 2611"
+l. "7(1 + 1)46"
+m. "123430717"
+
+//Problem 6
+
+c. double grade = 4.0
+
+//Problem 7
+
+int age;
+String gender;
+double height;
+int weight;
+
+//Problem 8
+
+String year;
+int courses taken;
+double GPA;
+
+//Problem 9
+
+number % 10
+
+//Problem 10 
+
+int x in line three needs a = (number)
+line 4 after the quotation there needs to be a +
+int x in line 6 needs x to be changed to a
+the last " in line 7 needs to be moved to after now
+the last x in line 7 needs to be changed to a 
+int in line 10 needs to be removed
+x in line 10 changed to an a
+second x in line 11 changed to an a
+the last and in line 11 needs "" around it
+
+//Problem 11
+
+
+
 
 
 
