@@ -98,9 +98,110 @@ the last and in line 11 needs "" around it
 
 //Problem 11
 
+(number/10)%10
+(number/100)%10
+
+//Problem 12
+
+d. 10
+
+//Problem 13
+
+a: 6
+b: 9
+c: 16
+
+//Problem 14
+
+first: 19
+second: 8
+
+//Problem 15
 
 
 
+//Problem 16
+x=2+3+4
+i = 4
+j = 2 
+k = 1
+
+
+// Problem 17
+
+46
+36
+23
+13
+
+//Problem 18
+
+
+
+//Problem 19 
+
+public class ComputePay {
+    public static void main(String[] args) {
+        // Calculate pay at work based on hours worked each day
+        int a = 4 + 5 + 8 + 4;
+        System.out.println("My total hours worked: \n" + a);
+        
+        double c = 8.75;
+        System.out.println("My hourly salary:\n$" + c);
+        
+        double b = a * 8.75;
+        System.out.println("My total pay: \n" + b);
+        
+        double d = (4 + 5 + 8 + 4) * 8.75 * 0.20;
+        System.out.println("My taxes owed: \n" + d); // 20% tax
+            }
+}
+
+//Problem 20
+
+// This program computes the total amount owed for a meal,
+// assuming 8% tax and a 15% tip.
+public class Receipt {
+    public static void main(String[] args) {
+        int x = 38;
+        int y = 40; 
+        int z = 30; 
+        int Subtotal = x + y + z;
+        System.out.println("Subtotal:");
+        System.out.println(Subtotal);
+        System.out.println("Tax:");
+        System.out.println(Subtotal * .08);
+        System.out.println("Tip:");
+        System.out.println(Subtotal * .15);
+        System.out.println("Total:");
+        System.out.println(Subtotal + Subtotal * .08 + Subtotal * .15);
+
+    }
+}
+
+//Problem 21
+
+public class Count2 {
+    public static void main(String[] args) {
+        for (int i = 1; i<=4; i++) {
+            System.out.println("2 times " + i + " = " + (i*2));
+        }
+    }
+}
+
+//Problem 22
+
+a. 2*count
+b. 15*count-11
+c. 40-10*count
+d. 4*count-11
+e. 100-3*count
+
+//Problem 23
+
+for (int i = 1; i <= 6; i++) {
+  System.out.println(18*i-22);
+}
 
 
 
