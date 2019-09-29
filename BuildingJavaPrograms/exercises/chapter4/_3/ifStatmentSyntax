@@ -1,0 +1,13 @@
+package exercises.chapter4._3;
+/*
+Davis Klevgard
+ */
+
+public class ifStatmentSyntax{
+    public static void main(String[] args){
+        //e
+        if (x == y){
+            
+        }
+    }
+}

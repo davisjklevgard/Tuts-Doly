@@ -22,12 +22,12 @@ public class LogicExpressions1{
         // e
         x + y > 0; //true
         // f
-        x – z != 0 //false
+        x – z != 0; //false
         // g.
-        y * y <= z //false
-        // h.
-        y / y == 1 //true
+        y * y <= z; //false
+        //h.
+        y / y == 1; //true
         // i
-        x * (y + 2) > y - (y + z) * 2
+        x * (y + 2) > y - (y + z) * 2; //true
     }
 }
