@@ -6,9 +6,9 @@ Davis Klevgard
 public class LogicExpressions1{
     public static void main(String[] args){
         int x = 4;
-        int y = –3;
+        int y = -3;
         int z = 4;
-
+        /*
         //a
         x == 4; //true
 
@@ -28,6 +28,6 @@ public class LogicExpressions1{
         //h.
         y / y == 1; //true
         // i
-        x * (y + 2) > y - (y + z) * 2; //true
+        x * (y + 2) > y - (y + z) * 2; //true */
     }
 }

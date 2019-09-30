@@ -5,9 +5,12 @@ Davis Klevgard
 
 public class ifStatmentSyntax{
     public static void main(String[] args){
-        //e
-        if (x == y){
-            
-        }
+        /*
     }
+        3. Which of the following if statement headers uses the correct syntax? a. if x = 10 then { b. if [x == 10] { c. if (x => y) { d. if (x equals 42) { e. if (x == y) {
+        */
+        //e
+        //if (x == y){
+
+        }
 }

@@ -7,62 +7,62 @@ public class LogicalTests {
         int z = 3;
         //a
         if (z % 2 != 0){
-            System.out.println("z is odd")
+            System.out.println("z is odd");
         }
 
         //b
         if (z <= Math.sqrt(y)){
-            System.out.println("z is not greater than y's square root.")
+            System.out.println("z is not greater than y's square root.");
         }
 
         //c
         if (y > 0){
-            System.out.println("y is positive")
+            System.out.println("y is positive");
         }
 
         //d
         if (x % 2 != y % 2){
-            System.out.println("Either x or y is even, and the other is odd.")
+            System.out.println("Either x or y is even, and the other is odd.");
         }
 
         //e
         if (y % z == 0){
-            System.out.println("y is a multiple of z.")
+            System.out.println("y is a multiple of z.");
         }
 
         //f
         if (z != 0){
-            System.out.println("z is not zero")
+            System.out.println("z is not zero");
         }
 
         //g
         if (Math.abs(y) > Math.abs(z)){
-            System.out.println("y is greater in magnitude than z")
+            System.out.println("y is greater in magnitude than z");
         }
 
         //h
         if (x * z < 0){
-            System.out.println("x and z are opposite signs")
+            System.out.println("x and z are opposite signs");
         }
 
         //i
         if (y % 10 == y){
-            System.out.println("y is a nonnegative one-digit number.")
+            System.out.println("y is a nonnegative one-digit number.");
         }
 
         //j
         if (z >= 0){
-            System.out.println("z is nonnegative.")
+            System.out.println("z is nonnegative.");
         }
 
         //k
         if (x % 2 == 0){
-            System.out.println("x is even")
+            System.out.println("x is even");
         }
 
         //l
         if (Math.abs(x - y) < Math.abs(z - y)){
-            System.out.println("x is closer in value to y than z is.")
+            System.out.println("x is closer in value to y than z is.");
         }
     }
 }
