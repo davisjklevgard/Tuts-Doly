@@ -12,9 +12,9 @@ public class ScannerLogicError {
         if (number % 2 ==0){
             if (number % 3 == 0){
                 System.out.println("Divisible by 6.");
-            } else {
-                System.out.println("Odd.");
             }
+        }else {
+            System.out.println("Odd.");
         }
     }
 }
