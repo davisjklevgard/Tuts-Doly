@@ -2,19 +2,18 @@ package exercises.chapter4._11;
 
 import java.util.Scanner;
 
-public class Contribution {
+public class Contribution<donation> {
     public static void main(String[] args){
-
-
-        int sum = 1000;
+        int sum = 0;
+        int total = 0;
         Scanner console = new Scanner(System.in);
-        System.out.print("Is your money multipled 1 or 2 times ");
+        System.out.print("Is your money multiplied 1 or 2 times ");
         int times = console.nextInt();
         if (times == 1){
             System.out.println("And how much are you contributing?");
             int donation = console.nextInt();
             sum = sum + donation;
-            int count1;
+            int count1 = 0;
             count1++;
 
             total = total + donation;
@@ -35,6 +34,6 @@ public class Contribution {
         System.out.println("And how much are you contributing?");
         Scanner console = new Scanner(System.in);
         int donation = console.nextInt();
-
-    } return donation;
+        return donation;
+    }
 }
