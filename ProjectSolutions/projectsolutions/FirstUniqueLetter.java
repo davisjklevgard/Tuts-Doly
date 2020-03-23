@@ -15,13 +15,17 @@ public class FirstUniqueLetter{
     private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
 
     public static char finding(String string){
-        char answer = 0;
-        System.out.println(answer);
+        char answer = 'a';
+        //System.out.println(answer);
         for (int i = 0; i < string.length(); i++){
             //System.out.println("a");
             funWithASCIIandCHAR(string.charAt(i));
             //System.out.println(funWithASCIIandCHAR(string.charAt(i)));
         }
+
+       // for (int i = 0; i < trackerOfCountsOfCharacters.length; i++) {
+       //     System.out.println(trackerOfCountsOfCharacters[i]);
+       // }
         for (int i = 0; i < TOTAL_CHARACTERS; i++){
             //System.out.println("a");
             if(trackerOfCountsOfCharacters[i] == 1) {
@@ -46,6 +50,8 @@ public class FirstUniqueLetter{
     }
 
     public static void funWithASCIIandCHAR(char letter) {
+        System.out.println(letter);
         trackerOfCountsOfCharacters[letter]= trackerOfCountsOfCharacters[letter]++;
+        //System.out.println("a");
     }
 }
