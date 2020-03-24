@@ -25,11 +25,11 @@ public class FirstUniqueLetter{
             //System.out.println("a");
             //puts the string through the funWithASCIIandCHAR method to put a count on each of the characters
             funWithASCIIandCHAR(input.charAt(i));
-            //System.out.println(funWithASCIIandCHAR(string.charAt(i)));
+            System.out.println(funWithASCIIandCHAR(input.charAt(i)));
         }
 
         for (int i = 0; i < input.length(); i++){
-            //System.out.println("a");
+            System.out.println("a");
             if(trackerOfCountsOfCharacters[input.charAt(i)] == 1) {
                return input.charAt(i);
 
