@@ -4,54 +4,47 @@ package projectsolutions;
 This Program is to help find the first unique letter in a string.
  */
 public class FirstUniqueLetter{
+    //creates a private integer that cannot be changed
     private static int TOTAL_CHARACTERS = 256;
-
+    //creates a main method
     public static void main(String[] args) {
-
+        // prints out what the method finding is returning
         System.out.println(finding("aardvark"));
+        //prints the word Hello
         System.out.println("Hello");
     }
-
+    //creates a private array that includes all the Total characters
     private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
+    // creates a public method that takes in a string as a parameter
+    public static int finding(String string){
+        String input = "aardvark";
 
-    public static char finding(String string){
-        char answer = 'a';
         //System.out.println(answer);
-        for (int i = 0; i < string.length(); i++){
+        //runs a for loop that counts each character and gives a number of how many times that character appears in the string for how long the string is
+        for (int i = 0; i < input.length(); i++){
             //System.out.println("a");
-            funWithASCIIandCHAR(string.charAt(i));
+            //puts the string through the funWithASCIIandCHAR method to put a count on each of the characters
+            funWithASCIIandCHAR(input.charAt(i));
             //System.out.println(funWithASCIIandCHAR(string.charAt(i)));
         }
 
-       // for (int i = 0; i < trackerOfCountsOfCharacters.length; i++) {
-       //     System.out.println(trackerOfCountsOfCharacters[i]);
-       // }
-        for (int i = 0; i < TOTAL_CHARACTERS; i++){
+        for (int i = 0; i < input.length(); i++){
             //System.out.println("a");
-            if(trackerOfCountsOfCharacters[i] == 1) {
-                //System.out.println("a");
-                char curranswer = (char) i;
-                System.out.println(curranswer);
-                if (string.indexOf(curranswer) < string.length()) {
-                    answer = curranswer;
-                    System.out.println(answer);
+            if(trackerOfCountsOfCharacters[input.charAt(i)] == 1) {
+               return input.charAt(i);
 
                 }
-                System.out.println("a");
-                if (answer == 1){
 
-                    return answer;
-
-                }
             }
+        return 0;
         }
-        
-        return answer;
-    }
+
 
     public static void funWithASCIIandCHAR(char letter) {
-        System.out.println(letter);
         trackerOfCountsOfCharacters[letter]= trackerOfCountsOfCharacters[letter]++;
         //System.out.println("a");
+
     }
+
+
 }
