@@ -29,7 +29,7 @@ public class FirstUniqueLetter{
         }
 
         for (int i = 0; i < input.length(); i++){
-            System.out.println("a");
+            //System.out.println("a");
             if(trackerOfCountsOfCharacters[input.charAt(i)] == 1) {
                return input.charAt(i);
 
@@ -40,9 +40,9 @@ public class FirstUniqueLetter{
         }
 
 
-    public static void funWithASCIIandCHAR(char letter) {
+    public static int funWithASCIIandCHAR(char letter) {
         trackerOfCountsOfCharacters[letter]= trackerOfCountsOfCharacters[letter]++;
-        //System.out.println("a");
+        return trackerOfCountsOfCharacters[letter];
 
     }
 
