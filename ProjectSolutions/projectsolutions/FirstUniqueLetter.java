@@ -16,7 +16,7 @@ public class FirstUniqueLetter{
     //creates a private array that includes all the Total characters
     private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
     // creates a public method that takes in a string as a parameter
-    public static int finding(String string){
+    public static char finding(String string){
         String input = string;
 
         //System.out.println(input);
@@ -31,7 +31,7 @@ public class FirstUniqueLetter{
         for (int i = 0; i < input.length(); i++){
             //System.out.println("a");
             if(trackerOfCountsOfCharacters[input.charAt(i)] == 1) {
-               return (char) input.charAt(i);
+               return input.charAt(i);
 
                 }
 
