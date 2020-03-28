@@ -17,9 +17,9 @@ public class FirstUniqueLetter{
     private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
     // creates a public method that takes in a string as a parameter
     public static int finding(String string){
-        String input = "aardvark";
+        String input = string;
 
-        //System.out.println(answer);
+        //System.out.println(input);
         //runs a for loop that counts each character and gives a number of how many times that character appears in the string for how long the string is
         for (int i = 0; i < input.length(); i++){
             //System.out.println("a");
@@ -41,7 +41,7 @@ public class FirstUniqueLetter{
 
 
     public static int funWithASCIIandCHAR(char letter) {
-        trackerOfCountsOfCharacters[letter]= trackerOfCountsOfCharacters[letter]++;
+        trackerOfCountsOfCharacters[letter]++;
         return trackerOfCountsOfCharacters[letter];
 
     }
