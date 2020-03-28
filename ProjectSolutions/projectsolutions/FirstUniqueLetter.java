@@ -11,7 +11,7 @@ public class FirstUniqueLetter{
         // prints out what the method finding is returning
         System.out.println(finding("aardvark"));
         //prints the word Hello
-        System.out.println("Hello");
+        //System.out.println("Hello");
     }
     //creates a private array that includes all the Total characters
     private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
@@ -25,13 +25,13 @@ public class FirstUniqueLetter{
             //System.out.println("a");
             //puts the string through the funWithASCIIandCHAR method to put a count on each of the characters
             funWithASCIIandCHAR(input.charAt(i));
-            System.out.println(funWithASCIIandCHAR(input.charAt(i)));
+           // System.out.println(funWithASCIIandCHAR(input.charAt(i)));
         }
 
         for (int i = 0; i < input.length(); i++){
             //System.out.println("a");
             if(trackerOfCountsOfCharacters[input.charAt(i)] == 1) {
-               return input.charAt(i);
+               return (char) input.charAt(i);
 
                 }
 
@@ -40,9 +40,9 @@ public class FirstUniqueLetter{
         }
 
 
-    public static int funWithASCIIandCHAR(char letter) {
+    public static void funWithASCIIandCHAR(char letter) {
         trackerOfCountsOfCharacters[letter]++;
-        return trackerOfCountsOfCharacters[letter];
+        //return trackerOfCountsOfCharacters[letter];
 
     }
 
