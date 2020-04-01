@@ -14,12 +14,16 @@ public class FirstUniqueLetter{
     public static void main(String[] args) throws FileNotFoundException {
         // prints out what the method finding is returning
         File file1 = new File(FILE);
-        Scanner scan = new Scanner(file1);
-        String console = new String(String.valueOf(scan));
+        Scanner scan = new Scanner(FILE);
+        while (scan.hasNextLine()){
+            String console = scan.nextLine();
+            System.out.print("This file has this unique letter: ");
+            System.out.println(finding(console));
+        }
 
         //System.out.println(finding("Trying this meThod to check if it is write to write y"));
-        System.out.print("Taking in the input from user, the answer we give is:  ");
-        System.out.println(finding(console));
+       // System.out.print("Taking in the input from user, the answer we give is:  ");
+        //System.out.println(finding(console));
         //prints the word Hello
         //System.out.println("Hello");
     }
