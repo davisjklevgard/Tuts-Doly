@@ -9,7 +9,7 @@ This Program is to help find the first unique letter in a string.
 public class FirstUniqueLetter{
     //creates a private integer that cannot be changed
     private static int TOTAL_CHARACTERS = 256;
-    public static final String FILE = "";
+    public static final String FILE = "test.txt";
     //creates a main method
     public static void main(String[] args) throws FileNotFoundException {
         // prints out what the method finding is returning
