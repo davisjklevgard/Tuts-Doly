@@ -1,4 +1,7 @@
 package projectsolutions;
+import java.io.FileNotFoundException;
+import java.util.*;
+import java.io.File;
 
 /*
 This Program is to help find the first unique letter in a string.
@@ -6,10 +9,17 @@ This Program is to help find the first unique letter in a string.
 public class FirstUniqueLetter{
     //creates a private integer that cannot be changed
     private static int TOTAL_CHARACTERS = 256;
+    public static final String FILE = "";
     //creates a main method
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         // prints out what the method finding is returning
-        System.out.println(finding("aardvark"));
+        File file1 = new File(FILE);
+        Scanner scan = new Scanner(file1);
+        String console = new String(String.valueOf(scan));
+
+        //System.out.println(finding("Trying this meThod to check if it is write to write y"));
+        System.out.print("Taking in the input from user, the answer we give is:  ");
+        System.out.println(finding(console));
         //prints the word Hello
         //System.out.println("Hello");
     }
