@@ -10,15 +10,18 @@ public class FirstUniqueLetter{
     //creates a private integer that cannot be changed
     private static int TOTAL_CHARACTERS = 256;
     public static final String FILE = "test.txt";
+    //creates a private array that includes all the Total characters
+    private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
     //creates a main method
     public static void main(String[] args) throws FileNotFoundException {
         // prints out what the method finding is returning
         File file1 = new File(FILE);
-        Scanner scan = new Scanner(FILE);
+        Scanner scan = new Scanner(file1);
         while (scan.hasNextLine()){
             String console = scan.nextLine();
             System.out.print("This file has this unique letter: ");
             System.out.println(finding(console));
+            Arrays.fill(trackerOfCountsOfCharacters, 0);
         }
 
         //System.out.println(finding("Trying this meThod to check if it is write to write y"));
@@ -27,8 +30,7 @@ public class FirstUniqueLetter{
         //prints the word Hello
         //System.out.println("Hello");
     }
-    //creates a private array that includes all the Total characters
-    private static int[] trackerOfCountsOfCharacters = new int [TOTAL_CHARACTERS];
+
     // creates a public method that takes in a string as a parameter
     public static char finding(String string){
         String input = string;
